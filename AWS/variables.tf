@@ -16,12 +16,12 @@ variable "my_key_name" {
 
 variable "my_hosted_zone_id" {
   description = "The zone ID of my doormat hosted route53 zone"
-  type = string
-  
+  type        = string
+
 }
 
 variable "my_tfe_dns_record" {
-  description = "The zone ID of my doormat hosted route53 zone"
-  type = string
-  
+  description = "The dns record of my TFE instance"
+  type        = string
+
 }
