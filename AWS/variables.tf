@@ -1,15 +1,27 @@
 variable "aws_region" {
-    description = "The AWS region in use to spawn the resources"
-    type = string
-}
-
-variable "ubuntu_ami" {
-    description = "The ami for the instance creation"
-    type = string
+  description = "The AWS region in use to spawn the resources"
+  type        = string
 }
 
 variable "tfe_instance_type" {
-    description = "The ec2 instance typr for TFE"
-    type = string
+  description = "The ec2 instance typr for TFE"
+  type        = string
+
+}
+
+variable "my_key_name" {
+  description = "The name of the ssh key pair"
+  type        = string
+}
+
+variable "my_hosted_zone_id" {
+  description = "The zone ID of my doormat hosted route53 zone"
+  type = string
+  
+}
+
+variable "my_tfe_dns_record" {
+  description = "The zone ID of my doormat hosted route53 zone"
+  type = string
   
 }

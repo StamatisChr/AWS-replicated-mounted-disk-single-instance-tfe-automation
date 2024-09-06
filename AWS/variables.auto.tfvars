@@ -1,2 +1,5 @@
-aws_region = "eu-west-1"
+aws_region        = "eu-west-1"
 tfe_instance_type = "t3.xlarge"
+my_key_name       = "Stam-ed25519-pub"
+my_hosted_zone_id = "Z0307025RMLZD9O2YDU2"
+my_tfe_dns_record = "tfe-stam.stamatios-chrysinas.sbx.hashidemos.io"
